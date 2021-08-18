@@ -173,6 +173,7 @@ export const MySkills = () => {
         const editKnowledge = (data) => {
                 setUserSkill({...data});
                 setSkill({...data.skill});
+                 setKnowledge(0)
                 setSkillEditDialog(true);
               };
 
